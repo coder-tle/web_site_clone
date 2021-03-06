@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meraki Enterprise</title>
+  </head>
+  <style>
+    html {
+      margin: 0;
+    }
+    .nav-bar {
+      display: flex;
+      flex-direction: row;
+      min-width: 100px;
+      min-height: 50px;
+      margin: 0;
+      padding: 0;
+      background: rgba(177, 234, 236, 0.726);
+    }
+    .nav-bar > * {
+      flex: 1;
+
+      list-style: none;
+      border: 1px solid black;
+      color: black;
+      align-items: center;
+      text-align: center;
+    }
+    .nav-bar > *:hover {
+      background: rgb(119, 183, 243);
+    }
+    a {
+      text-decoration: none;
+    }
+    button {
+      background: rgb(157, 219, 157);
+      border-radius: 15px;
+    }
+    .logo {
+      height: 50px;
+      width: 50px;
+    }
+  </style>
+  <body>
+    <div class="address">
+      <h1>Metal Packaging Clip</h1>
+      <p style="display: inline">44/1, Ratu Sarkar Lane Kolkata, West Bengal</p>
+      <img
+        style="display: inline"
+        class="logo"
+        src="images/MerakiEnterprise.jpeg"
+        alt="cover"
+      />
+    </div>
+
+    <nav>
+      <ul class="nav-bar">
+        <li><a href>Home</a></li>
+
+        <li><a href>Products</a></li>
+        <li><a href>Enquiry Form</a></li>
+        <li><a href>Contact Us</a></li>
+        <li><a href>About Us</a></li>
+        <button>Send Email</button>
+      </ul>
+    </nav>
+  </body>
+</html>
